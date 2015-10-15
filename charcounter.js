@@ -66,9 +66,9 @@
 
             function updateLabel(e) {
                 if(options.limit > 0){
-                label.text("{0}/{1}".format($(this).val().length, options.limit));
+                    label.text("{0}/{1}".format($(this).val().length, options.limit));
                 }else{
-                    label.text(el.val().length);
+                    label.text($(this).val().length);
                 }
             }
         });

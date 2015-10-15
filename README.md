@@ -22,5 +22,7 @@ Demo: http://jsfiddle.net/kemalbay/ea5bb026/
                 size: 10,
                 color: "#a59c8c"
              }
-    limit: (integer) If you want to limit a textarea or an input, you need to specify a limit. If you don't want to limit your inputs set to 0.
+    limit: (integer) If you want to limit a textarea or an input, 
+    you need to specify a limit. 
+    If you don't want to limit your inputs set to 0.
     default: 255
